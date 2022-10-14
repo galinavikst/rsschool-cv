@@ -1,0 +1,234 @@
+:root {
+  --body-bg-color: #f5f7fa;
+  --page-bg-white-color: #ffffff;
+  --aside-bg-color: #1e2939;
+  --accent-color: #fb6d3a;
+  --secondary-text-color: #000;
+  --primery-text-color: #595959;
+  --addition-text-color: #a8a8a8;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--body-bg-color);
+}
+
+.page {
+  width: 1200px;
+  margin: 0 auto;
+
+  background: var(--page-bg-white-color);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* .......header......... */
+.header {
+  background-color: var(--aside-bg-color);
+}
+.nav-list {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+  margin: 0;
+  list-style-type: none;
+}
+.nav-link {
+  color: var(--page-bg-white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  opacity: 0.5;
+  padding: 40px;
+}
+/* ..........aside............ */
+aside {
+  background: var(--aside-bg-color);
+  color: var(--body-bg-color);
+  width: 370px;
+}
+aside .title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  margin: 0 0 15px 40px;
+  color: var(--body-bg-color);
+}
+aside p {
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.contact-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  margin-right: 10px;
+}
+.contacts-list {
+  margin-left: 40px;
+}
+
+.aside .tel,
+.aside .mail,
+.aside .git,
+.aside .linkedin {
+  font-size: 14px;
+  line-height: 1.71;
+  color: inherit;
+  opacity: 0.5;
+}
+.tel,
+.nav-link,
+.footer-git-link {
+  text-decoration: none;
+}
+.contacts-data:hover,
+.contacts-data:focus,
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.8;
+}
+.aside.soft-skills,
+.aside.contacts,
+.aside.languages,
+.aside.hobbies {
+  margin: 50px 0;
+}
+.skills {
+  margin-left: 17px;
+}
+.soft-item,
+.tech-item,
+.lang-item,
+.hobbies-item {
+  color: var(--accent-color);
+}
+.soft-item-text,
+.tech-item-text,
+.lang-item-text,
+.hobbies-item-text {
+  color: var(--page-bg-white-color);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+}
+/* ..................main................ */
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main {
+  margin: 100px 80px;
+}
+.about,
+.projects,
+.work {
+  margin-bottom: 50px;
+}
+.position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: var(--secondary-text-color);
+}
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: calc(55 / 45);
+  margin: 20px 0 25px;
+  color: var(--secondary-text-color);
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  width: 600px;
+  color: var(--primery-text-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: calc(27 / 22);
+  margin-bottom: 10px;
+  color: var(--secondary-text-color);
+}
+.list-marks {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-right: 0;
+
+  color: var(--secondary-text-color);
+}
+.project-list,
+.duties-list {
+  padding: 0 0 0 17px;
+  margin-bottom: 20px;
+}
+.item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--primery-text-color);
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+}
+.title-position,
+.study-place {
+  margin: 20px 0 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+
+  color: var(--secondary-text-color);
+}
+.company {
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+.timing {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  margin-top: 10px;
+
+  color: var(--addition-text-color);
+}
+.timing-decor {
+  color: var(--secondary-text-color);
+}
+.study-place {
+  color: var(--accent-color);
+}
+.course {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  margin: 0;
+
+  color: var(--secondary-text-color);
+}
+/* ..........footer.......... */
+.footer {
+  background-color: #dadada;
+  padding: 10px 20px;
+}
+.footer-git-link {
+}
+footer img {
+  padding-right: 5px;
+}
+footer p {
+  display: inline;
+  padding: 0 50px;
+  opacity: 0.7;
+}
+.school-course {
+  padding-left: 0;
+}
