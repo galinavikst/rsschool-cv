@@ -129,7 +129,7 @@ main {
   line-height: calc(20 / 16);
   color: var(--secondary-text-color);
 }
-.name {
+h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: calc(55 / 45);
