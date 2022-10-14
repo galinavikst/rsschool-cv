@@ -227,6 +227,7 @@ footer img {
 footer p {
   display: inline;
   padding: 0 50px;
+  opacity: 0.7;
 }
 .school-course {
   padding-left: 0;
